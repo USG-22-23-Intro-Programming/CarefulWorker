@@ -5,7 +5,7 @@ from button import*
 def main():
 
     win = GraphWin("character creator", 800, 600)
-    win.setBackground("misty rose")
+    win.setBackground("PaleVioletRed1")
 
     C = Circle(Point(300, 300), 150)
     C.draw(win)
@@ -23,12 +23,12 @@ def main():
 
     CircleMouth = Circle(Point(300,370), 35)
 
-    B = Button(win, Point(500, 100), Point(600, 175), "cyan", "Big Eyes")
-    B2 = Button(win, Point(630, 100), Point(730, 175), "cyan", "Small Eyes")
-    B3 = Button(win, Point(500, 200), Point(600, 275), "cyan", "Medium Circle Nose")
-    B4 = Button(win, Point(630, 200), Point(730, 275), "cyan", " Small Circle Nose")
-    B5 = Button(win, Point(500, 300), Point(600, 375), "cyan", "Line Mouth")
-    B6 = Button(win, Point(630, 300), Point(730, 375), "cyan", "Circle Mouth")
+    B = Button(win, Point(500, 100), Point(600, 175), "CadetBlue2", "Big Eyes")
+    B2 = Button(win, Point(630, 100), Point(730, 175), "CadetBlue2", "Small Eyes")
+    B3 = Button(win, Point(500, 200), Point(600, 275), "CadetBlue2", "Medium Circle Nose")
+    B4 = Button(win, Point(630, 200), Point(730, 275), "CadetBlue2", " Small Circle Nose")
+    B5 = Button(win, Point(500, 300), Point(600, 375), "CadetBlue2", "Line Mouth")
+    B6 = Button(win, Point(630, 300), Point(730, 375), "CadetBlue2", "Circle Mouth")
 
     Q = Button(win, Point(560, 400), Point(660, 475), "tomato", "QUIT")
 
